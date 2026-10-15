@@ -1,3 +1,75 @@
-<p>This is a new repo.</p>
-<p>This is a new feature{dropdown}</p>
-<p>This is a new feature{button}</p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="weather-container">
+
+        <h1>🌦️ Weather App</h1>
+        <p class="subtitle">Check the weather in your city</p>
+
+        <!-- City Search -->
+        <div class="search-box">
+            <input
+                type="text"
+                id="city-input"
+                placeholder="Enter city name"
+                aria-label="Enter city name"
+            >
+            <button id="search-btn">Search</button>
+        </div>
+
+        <!-- Error Message -->
+        <p id="error-message" role="alert"></p>
+
+        <!-- Weather Information -->
+        <div class="weather-info" id="weather-info">
+
+            <h2 id="city-name">City Name</h2>
+
+            <div class="weather-icon" id="weather-icon">
+                🌤️
+            </div>
+
+            <h1 id="temperature">--°C</h1>
+
+            <p id="description">Weather condition</p>
+
+            <!-- Weather Details -->
+            <div class="weather-details">
+
+                <div class="detail">
+                    <span>💧</span>
+                    <p>Humidity</p>
+                    <h3 id="humidity">--%</h3>
+                </div>
+
+                <div class="detail">
+                    <span>💨</span>
+                    <p>Wind Speed</p>
+                    <h3 id="wind-speed">-- km/h</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Made with ❤️ using HTML, CSS & JavaScript</p>
+        </footer>
+
+    </div>
+
+    <!-- Link JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
