@@ -87,7 +87,7 @@ The app features a modern gradient background, a city search bar, and a weather 
 
 ## 👨‍💻 Author
 
-**Your Name**
+Vanshika
 
 A web development project created to practice HTML, CSS, JavaScript, and API integration.
 
